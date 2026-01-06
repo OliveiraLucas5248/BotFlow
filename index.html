@@ -20,15 +20,7 @@
 
 <header class="hero">
     <!-- FUNDO (código animado) -->
-  <div class="code-background">
-    <pre>
-      if (message.type === "whatsapp") {
-      sendAutoReply();
-      }
-
-      flow.run("billing");
-    </pre>
-  </div>
+  <canvas id="code-canvas"></canvas>
 
   <nav class="nav">
     <div class="logo">BotFlow</div>
@@ -81,6 +73,6 @@
   <p>© 2026 Botflow • Processos automáticos que economizam tempo e dinheiro</p>
 </footer>
 
-<script src="./index.js"></script>
+<script src="./index.js" defer></script>
 </body>
 </html>

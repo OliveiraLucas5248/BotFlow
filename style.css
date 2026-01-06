@@ -157,3 +157,24 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e4fd8, #2b6be6);
+  overflow: hidden;
+}
+
+#code-canvas {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  opacity: 0.25;          /* controla intensidade */
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  padding: 80px;
+}
